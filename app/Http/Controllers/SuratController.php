@@ -39,6 +39,10 @@ class SuratController extends Controller
         return redirect('/HalamanSurat');
     }
 
+    public function register () {
+        return view('/HalamanSurat.create');
+    }
+
 
 
 }

@@ -3,7 +3,7 @@
 <form action="/HalamanSurat/{{$tblkelahirans->id}}" method="POST">
     @method('PUT')
     @csrf
-    Hubungan : <input type="hubungan" name="hubungan" value="{{$tblkelahirans->hubungan}}"><br>
+    Hubungan : <input type="text" name="hubungan" value="{{$tblkelahirans->hubungan}}"><br>
     Nama Anak : <input type="text" name="nama_anak" value="{{$tblkelahirans->nama_anak}}"><br>
     Tanggal Lahir :<input type="text" name="tgl_lahir" value="{{$tblkelahirans->tgl_lahir}}"><br>
     Tempat Lahir : <input type="text" name="tempat_lahir" value="{{$tblkelahirans->tempat_lahir}}"><br>

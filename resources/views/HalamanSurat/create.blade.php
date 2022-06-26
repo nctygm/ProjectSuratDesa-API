@@ -1,4 +1,4 @@
-<h1>FESSAL GOBLOG!</h1>
+<h1>Input Tabel Kelahiran</h1>
 
 <form action="/HalamanSurat" method="POST">
     @csrf

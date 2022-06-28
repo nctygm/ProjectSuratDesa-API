@@ -15,6 +15,10 @@ use App\Http\Controllers\AuthControllerPage;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/',function (){
+    return view ('welcome');
+} );
+
 //ini route untuk database surat kelahiran
 Route::get('/HalamanSurat',[SuratController::class,'surat_kelahiran'] );
 Route::get('/HalamanSurat/create',[SuratController::class,'create'] );
